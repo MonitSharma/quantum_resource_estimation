@@ -407,6 +407,8 @@ Majorana Fermions are hypothetical particles that are their own antiparticles. T
 They are expected to exhibit non-abelian statistics, that is their quantum states do not merely swap places when exchanged, but instead transform in a more complex way. These modes can be used to encode quantum information in a way that is inherently protected from local sources of decoherence. 
 
 Majorana based quantum computing uses majorana zero modes to form qubits, they key advantage is the topological protection against certain types of errors, making quantum information encoded in these modes more stable. This stability arises from the non-local encoding of information: the qubit is stored in a way that any local perturbation would need to affect multiple distant points simultaneously to cause an error.
+
+
 ---
 
 A gate-based instruction set provides single-qubit measurement, single-qubit gates (including T gates ($S = T^2$)), and two-qubit gates. A Majorana instruction set provides a physical T gate, single qubit measurement and two-qubit joint measurement operations.
