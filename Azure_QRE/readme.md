@@ -7,5 +7,43 @@ A Q# project contains a Q# manifest file, named `qsharp.json` , and one or more 
 
 ## A Q# project
 
+A Q# project is defined by the presence of a `qsharp.json` manifest file and a **src** folder, both of which should be in the rootfolder of the project. For Q# programs, the Q# compiler detects the projects folder automatically. For Python and Jupyter users, you must specify the Q# project folder with `qsharp.init` call.
+
+based on this repo, the root is `Azure_QRE`
+```python
+qsharp.init(project_root = '../Azure_QRE')
+```
+
+
+The folder strcutre for a Q# prjects remain the same.
 
 ![alt text](v2djm8xt.bmp)
+
+
+
+## Create a Manifest file
+
+A manifest file is a simple `.json` file named `qsharp.json` that can optionally include *author, license* and *.ints* fields. The minimum viable manifest file is the strings `{}`, which is autmatically created.
+
+```python
+{}
+```
+
+### Manifest File Examples
+
+
+```python
+{
+    "author":"Microsoft"
+}
+```
+
+or 
+
+```python
+{
+    "author":"Microsoft",
+    "license":"MIT"
+}
+```
+

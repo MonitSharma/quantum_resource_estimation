@@ -26,3 +26,5 @@ QRE provides estimates on what it would take to accurately run an algorithm:
 4. [Microsoft's Azure QRE](https://learn.microsoft.com/en-us/azure/quantum/intro-to-resource-estimation) and [this](https://github.com/microsoft/Quantum/tree/main/samples/azure-quantum/resource-estimation)
 
    
+
+
