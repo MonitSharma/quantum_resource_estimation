@@ -1,10 +1,11 @@
-# Introduction to the Azure Quantum Resource Estimator
+# Work with Q# Projects
 
-Its an open source tool that allows you to estimate the resources needed to execute a given quantum algorithm on a fault-tolerant quantum computer. You don't need an Azure account to run this.
-The resource estimator provides the total number of physical and logical qubits, runtime, as well as details of the formulas and values used for each estimate. With this, we can compare qubit technologies, quantum error correction schemes, and other hardware characterstics to understand how they impact the resources needed to run a quantum program.
+With the release of the Azure Quantum Development kit, you can define Q# projects, which are folder strcutures with multiple Q# files that can access each other's resources. Projects are helpful for creating reusable libraries and logically organizing your source code.
 
-The Resource Estimator will help you understand how many qubits are needed to run an application, how long it will take to run, and which qubit technologies are better suited to solving a specific problem. Understanding these requirements will allow you to prepare and refine quantum solutions to run on future, scaled quantum machines.
-
+A Q# project contains a Q# manifest file, named `qsharp.json` , and one or more `.qs` files in a specified folder structure. When a user opens a `.qs` file in VS code, or sets the `project_root` in a Jupyetr notebook or Python file , the compiler searches the surrounding folder hierarchy for the manifest file and determines the project's scope. If no manifest file is found, the compiler operates in a single file mode. A Q# project can be created manually or dirctly in VS code.
 
 
+## A Q# project
 
+
+![alt text](v2djm8xt.bmp)
