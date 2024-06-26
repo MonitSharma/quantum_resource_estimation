@@ -1,0 +1,6 @@
+benchq
+pyliqtr
+qualtran
+qiskit
+qsharp
+qsharp-widgets
